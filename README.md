@@ -7,6 +7,13 @@ The codes presented here were used for the experiments in my article *Consistent
 These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packages/mixer/index.html) package, developed by Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche, Vincent Miele, Franck Picard, Alexander Smith, the LAPACK authors (copyrights apply to src/*.f), the Laboratoire Statistique & Génome, and Carter T. Butts. In this project, these codes have been adapted specifically for a Multi-Layer SBM.
  
 
+## Installation & Dependencies  
+
+To run the code, make sure you have the following R packages installed:  
+
+```r
+install.packages(c("latex2exp", "ggplot2", "randnet"))
+```
 
 ## File structure  
 
