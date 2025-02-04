@@ -1,4 +1,4 @@
-# Code for consistent modle selection in the multi-layer SBM with the penalized Krichevsky-Trofimov estomator
+# Code for consistent model selection in the multi-layer SBM with the penalized Krichevsky-Trofimov estimator
 
 ## Description  
  
@@ -33,3 +33,5 @@ sparse.R : Experiment in a sparse regime context.
 
 
 ## License
+
+The entire source code of this product is available under the [CeCILL](http://www.cecill.info/) license, which is compatible with the [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.html).
