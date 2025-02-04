@@ -1,4 +1,4 @@
-The file code_ML-DynSBM.R contains all the functions used for the simulations. 
+The file code_MLSBM.R contains all the functions used for the simulations. 
 
 Each other file corresponds to a specific experiment conducted as part of the project.
 
