@@ -12,7 +12,7 @@ These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packa
 To run the code, make sure you have the following R packages installed:  
 
 ```r
-install.packages(c("latex2exp", "ggplot2", "randnet"))
+install.packages(c("latex2exp", "ggplot2", "randnet", "igraph"))
 ```
 
 ## File structure  
