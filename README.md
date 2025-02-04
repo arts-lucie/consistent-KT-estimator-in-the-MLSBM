@@ -4,25 +4,19 @@
  
 The codes presented here were used for the experiments in my article *Consistent Model Selection in a Collection of Stochastic Block Models* ([preprint link]()). They are used to estimate the number of communities in a multi-layer SBM based on the Krichevsky-Trofimov penalized estimator.
 
-These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packages/mixer/index.html) package, developed by Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche, Vincent Miele, Franck Picard, Alexander Smith, the LAPACK authors (copyrights apply to src/*.f), the Laboratoire Statistique & Génome, and Carter T. Butts. They have been adapted specifically for a Multi-Layer SBM in this project.  
+These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packages/mixer/index.html) package, developed by Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche, Vincent Miele, Franck Picard, Alexander Smith, the LAPACK authors (copyrights apply to src/*.f), the Laboratoire Statistique & Génome, and Carter T. Butts. In this project, these codes have been adapted specifically for a Multi-Layer SBM.
  
 
 
 ## File structure  
+
+- **code_MLSBM.R**: Contains all the functions used for the simulations.  
+- **accuracy.R**: Compares the accuracy of different methods (KT-BHMC-NCV-PML).  
+- **computation_time.R**: Measures the computational time required for the different methods (KT-BHMC-NCV-PML).  
+- **rate_CV_edges.R**: Experiment attempting to observe the rate of convergence in the case where the maximum number of interactions is constant.  
+- **rate_CV_nodes.R**: Experiment attempting to observe the rate of convergence in the case where the number of nodes is constant.  
+- **sparse.R**: Experiments in a sparse regime context. 
   
-The file code_MLSBM.R contains all the functions used for the simulations. 
-
-Each other file corresponds to a specific experiment conducted as part of the project.
-
-accuracy.R : Experiment comparing the accuracy of different methods (KT-BHMC-NCV-PML).
-
-computation_time.R : Experiment observing the computation time.
-
-rate_CV_edges.R : Experiment attempting to observe the rate of convergence in the case where the maximum number of interactions is constant.
-
-rate_CV_nodes.R : Experiment attempting to observe the rate of convergence in the case where the number of nodes is constant.
-
-sparse.R : Experiment in a sparse regime context.
 
 
 ## License
