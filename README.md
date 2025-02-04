@@ -2,26 +2,19 @@
 
 ## Description  
  
-Il est lié à l'article **"[Titre de l'article](lien_vers_article)"**  
+The codes presented here were used for the experiments in my article [*Consistent Model Selection in a Collection of Stochastic Block Models*](). They are used to estimate the number of communities in a multi-layer SBM based on the Krichevsky-Trofimov penalized estimator.
 
-Ce projet réutilise une partie du code de **[Nom du projet ou source](lien_vers_source)**.  
+These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packages/mixer/index.html) package, developed by Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche, Vincent Miele, Franck Picard, Alexander Smith, the LAPACK authors (copyrights apply to src/*.f), the Laboratoire Statistique & Génome, and Carter T. Butts. They have been adapted specifically for a Multi-Layer SBM in this project.  
+ 
 
 
 ## File structure  
   
-
-
-
-
-
 The file code_MLSBM.R contains all the functions used for the simulations. 
 
 Each other file corresponds to a specific experiment conducted as part of the project.
 
-
-
-
-accuracy.R : Experiment comparing the accuracy of different methods.
+accuracy.R : Experiment comparing the accuracy of different methods (KT-BHMC-NCV-PML).
 
 computation_time.R : Experiment observing the computation time.
 
