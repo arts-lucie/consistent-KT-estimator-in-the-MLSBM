@@ -2,7 +2,7 @@
 
 ## Description  
  
-The codes presented here were used for the experiments in my article [*Consistent Model Selection in a Collection of Stochastic Block Models*](). They are used to estimate the number of communities in a multi-layer SBM based on the Krichevsky-Trofimov penalized estimator.
+The codes presented here were used for the experiments in my article *Consistent Model Selection in a Collection of Stochastic Block Models* ([preprint link]()). They are used to estimate the number of communities in a multi-layer SBM based on the Krichevsky-Trofimov penalized estimator.
 
 These codes are inspired by the [**mixer**](https://cran.r-project.org/web/packages/mixer/index.html) package, developed by Christophe Ambroise, Gilles Grasseau, Mark Hoebeke, Pierre Latouche, Vincent Miele, Franck Picard, Alexander Smith, the LAPACK authors (copyrights apply to src/*.f), the Laboratoire Statistique & Génome, and Carter T. Butts. They have been adapted specifically for a Multi-Layer SBM in this project.  
  
